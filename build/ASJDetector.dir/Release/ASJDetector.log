@@ -1,0 +1,42 @@
+﻿生成启动时间为 2018/4/4 星期三 20:53:28。
+     1>项目“D:\_Programming\Cmake_Version\build\ASJDetector.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\_Programming\opencv-2.4.13\include" /I"D:\_Programming\opencv-2.4.13\include\opencv" /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"ASJDetector.dir\Release\\" /Fd"ASJDetector.dir\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt D:\_Programming\Cmake_Version\sources\main.cpp
+         main.cpp
+     1>d:\_programming\opencv-2.4.13\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\_programming\cmake_version\sources\helper.h(179): warning C4305: “+=”: 从“double”到“float”截断
+     1>d:\_programming\cmake_version\sources\helper.h(180): warning C4305: “-=”: 从“double”到“float”截断
+     1>d:\_programming\cmake_version\sources\probtool.h(45): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\_programming\cmake_version\sources\probtool.h(54): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\_programming\cmake_version\sources\probtool.h(56): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\_programming\cmake_version\sources\probtool.h(68): warning C4018: “>=”: 有符号/无符号不匹配
+     1>d:\_programming\cmake_version\sources\probtool.h(78): warning C4018: “>=”: 有符号/无符号不匹配
+     1>d:\_programming\cmake_version\sources\acj.h(61): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\_programming\cmake_version\sources\acj.h(324): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\_programming\cmake_version\sources\acj.h(341): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\_programming\cmake_version\sources\aacj.h(76): warning C4018: “>=”: 有符号/无符号不匹配
+     1>d:\_programming\cmake_version\sources\aacj.h(122): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\_programming\cmake_version\sources\aacj.h(183): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>d:\_programming\cmake_version\sources\aacj.h(206): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\_programming\cmake_version\sources\matcher.h(39): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\_programming\cmake_version\sources\matcher.h(42): warning C4018: “<”: 有符号/无符号不匹配
+     1>D:\_Programming\Cmake_Version\sources\main.cpp(47): warning C4305: “=”: 从“double”到“float”截断
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\_Programming\Cmake_Version\build\Release\ASJDetector.exe" /INCREMENTAL:NO /NOLOGO "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_videostab2413.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_ts2413.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_superres2413.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_stitching2413.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_contrib2413.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_nonfree2413.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_ocl2413.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_gpu2413.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_photo2413.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_objdetect2413.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_legacy2413.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_video2413.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_ml2413.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_calib3d2413.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_features2d2413.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_highgui2413.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_imgproc2413.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_flann2413.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_core2413.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/_Programming/Cmake_Version/build/Release/ASJDetector.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/_Programming/Cmake_Version/build/Release/ASJDetector.lib" /MACHINE:X86 /SAFESEH  /machine:X86 ASJDetector.dir\Release\aacj.obj
+         ASJDetector.dir\Release\aacjout.obj
+         ASJDetector.dir\Release\acj.obj
+         ASJDetector.dir\Release\acjpre.obj
+         ASJDetector.dir\Release\generateSector.obj
+         ASJDetector.dir\Release\helper.obj
+         ASJDetector.dir\Release\lsdcall.obj
+         ASJDetector.dir\Release\main.obj
+         ASJDetector.dir\Release\nfa.obj
+         ASJDetector.dir\Release\pdf.obj
+         ASJDetector.vcxproj -> D:\_Programming\Cmake_Version\build\Release\ASJDetector.exe
+     1>已完成生成项目“D:\_Programming\Cmake_Version\build\ASJDetector.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.14

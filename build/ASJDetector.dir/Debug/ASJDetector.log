@@ -1,0 +1,102 @@
+﻿生成启动时间为 2018/4/4 星期三 19:34:50。
+     1>项目“D:\_Programming\Cmake_Version\build\ASJDetector.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\_Programming\opencv-2.4.13\include" /I"D:\_Programming\opencv-2.4.13\include\opencv" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"ASJDetector.dir\Debug\\" /Fd"ASJDetector.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt D:\_Programming\Cmake_Version\sources\acj.cpp
+         acj.cpp
+     1>d:\_programming\cmake_version\sources\helper.h(179): warning C4305: “+=”: 从“double”到“float”截断
+     1>d:\_programming\cmake_version\sources\helper.h(180): warning C4305: “-=”: 从“double”到“float”截断
+     1>d:\_programming\cmake_version\sources\probtool.h(45): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\_programming\cmake_version\sources\probtool.h(54): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\_programming\cmake_version\sources\probtool.h(56): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\_programming\cmake_version\sources\probtool.h(68): warning C4018: “>=”: 有符号/无符号不匹配
+     1>d:\_programming\cmake_version\sources\probtool.h(78): warning C4018: “>=”: 有符号/无符号不匹配
+     1>d:\_programming\cmake_version\sources\acj.h(59): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\_programming\cmake_version\sources\acj.h(321): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\_programming\cmake_version\sources\acj.h(338): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\_programming\cmake_version\sources\nms.h(203): warning C4244: “参数”: 从“int”转换到“const float”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(33): warning C4002: “assert”宏的实参太多
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(43): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(53): warning C4018: “<”: 有符号/无符号不匹配
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(60): warning C4244: “=”: 从“const size_t”转换到“float”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(161): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(167): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(182): warning C4244: “初始化”: 从“float”转换到“size_t”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(185): warning C4018: “<”: 有符号/无符号不匹配
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(193): warning C4018: “<”: 有符号/无符号不匹配
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(202): warning C4018: “<”: 有符号/无符号不匹配
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(256): warning C4002: “assert”宏的实参太多
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(325): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(326): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(338): warning C4244: “参数”: 从“float”转换到“unsigned int”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(339): warning C4244: “参数”: 从“float”转换到“unsigned int”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(342): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(374): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(375): warning C4018: “>”: 有符号/无符号不匹配
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(389): warning C4018: “<”: 有符号/无符号不匹配
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(391): warning C4018: “>”: 有符号/无符号不匹配
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(401): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(407): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(407): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(418): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(419): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(423): warning C4244: “参数”: 从“float”转换到“unsigned int”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(459): warning C4018: “<”: 有符号/无符号不匹配
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(498): warning C4101: “finished”: 未引用的局部变量
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(498): warning C4101: “start”: 未引用的局部变量
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(680): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(702): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(739): warning C4018: “<”: 有符号/无符号不匹配
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(743): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(757): warning C4305: “参数”: 从“double”到“const float”截断
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(769): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(812): warning C4018: “<”: 有符号/无符号不匹配
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(834): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(836): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(903): warning C4018: “<”: 有符号/无符号不匹配
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(927): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(929): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(218): warning C4018: “<”: 有符号/无符号不匹配
+                 D:\_Programming\Cmake_Version\sources\acj.cpp(329): 参见对正在编译的函数 模板 实例化“void ACJDetection::computeStrengthMax<cv::Mat>(const TMat &,const TMat &,TMat &)”的引用
+                 with
+                 [
+                     TMat=cv::Mat
+                 ]
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(219): warning C4018: “<”: 有符号/无符号不匹配
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(548): warning C4018: “<”: 有符号/无符号不匹配
+                 D:\_Programming\Cmake_Version\sources\acj.cpp(423): 参见对正在编译的函数 模板 实例化“bool ACJDetection::junctionRefinement<cv::Mat>(float,const TMat &,const TMat &,const std::vector<Sector,std::allocator<_Ty>> &,Junction &)”的引用
+                 with
+                 [
+                     TMat=cv::Mat
+         ,            _Ty=Sector
+                 ]
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(561): warning C4305: “参数”: 从“double”到“const float”截断
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(561): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(575): warning C4305: “参数”: 从“double”到“const float”截断
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(578): warning C4018: “<”: 有符号/无符号不匹配
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(579): warning C4018: “<”: 有符号/无符号不匹配
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(582): warning C4305: “参数”: 从“double”到“const float”截断
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(237): warning C4018: “<”: 有符号/无符号不匹配
+                 D:\_Programming\Cmake_Version\sources\acj.cpp(804): 参见对正在编译的函数 模板 实例化“void ACJDetection::computeStrengthMaxLocal<cv::Mat>(const TMat &,const TMat &,TMat &)”的引用
+                 with
+                 [
+                     TMat=cv::Mat
+                 ]
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(238): warning C4018: “<”: 有符号/无符号不匹配
+     1>D:\_Programming\Cmake_Version\sources\acj.cpp(242): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\_Programming\Cmake_Version\build\Debug\ASJDetector.exe" /INCREMENTAL /NOLOGO "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_videostab2413d.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_ts2413d.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_superres2413d.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_stitching2413d.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_contrib2413d.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_nonfree2413d.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_ocl2413d.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_gpu2413d.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_photo2413d.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_objdetect2413d.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_legacy2413d.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_video2413d.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_ml2413d.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_calib3d2413d.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_features2d2413d.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_highgui2413d.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_imgproc2413d.lib" comctl32.lib gdi32.lib ole32.lib setupapi.lib ws2_32.lib vfw32.lib "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_flann2413d.lib" "D:\_Programming\opencv-2.4.13\x86\vc12\lib\opencv_core2413d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/_Programming/Cmake_Version/build/Debug/ASJDetector.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/_Programming/Cmake_Version/build/Debug/ASJDetector.lib" /MACHINE:X86 /SAFESEH  /machine:X86 ASJDetector.dir\Debug\aacj.obj
+         ASJDetector.dir\Debug\aacjout.obj
+         ASJDetector.dir\Debug\acj.obj
+         ASJDetector.dir\Debug\acjpre.obj
+         ASJDetector.dir\Debug\generateSector.obj
+         ASJDetector.dir\Debug\helper.obj
+         ASJDetector.dir\Debug\lsdcall.obj
+         ASJDetector.dir\Debug\main.obj
+         ASJDetector.dir\Debug\nfa.obj
+         ASJDetector.dir\Debug\pdf.obj
+         ASJDetector.vcxproj -> D:\_Programming\Cmake_Version\build\Debug\ASJDetector.exe
+     1>已完成生成项目“D:\_Programming\Cmake_Version\build\ASJDetector.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.88

@@ -1,0 +1,3 @@
+D:/_Programming/Cmake_Version/build/CMakeFiles/ASJDetector.dir
+D:/_Programming/Cmake_Version/build/CMakeFiles/ALL_BUILD.dir
+D:/_Programming/Cmake_Version/build/CMakeFiles/ZERO_CHECK.dir
